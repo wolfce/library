@@ -1,0 +1,19 @@
+<h2>Librarian</h2>
+
+<h2>Check Out</h2>
+<h3><%= form_for :book, url: {action: :check_out} do |form| %>
+  <p>Title:<%= form.text_field :title, size: 20 %></p>
+  <p>Borrower:<%= form.text_field :name, size: 20 %></p>
+  <p><%= form.submit "Check Out" %></p>
+  <% end %>
+</h3>
+
+<h2>Check In</h2>
+<h3><%= form_for :book, url: {action: :check_in} do |form| %>
+  <p>Title: <%= form.text_field :title, size: 20 %></p>
+  <p><%= form.submit "Check In" %></p>
+  <% end %>
+<h3>
+
+<h2>List Books On Loan</h2>
+<h3><%= button_to "list Books On Loan", action: :list_onloan %></h3>

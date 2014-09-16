@@ -1,0 +1,47 @@
+table{
+	border: 1; 
+	border-style: solid; 
+	border-width: thin; 
+	cellpadding: 10;
+	align: center
+}
+
+td {
+	border-style: solid;
+	border-width: thin;
+	padding-right: 0.5cm;
+}
+
+body 
+{
+	background-image:url('white.gif');
+	text-align: center;
+	color: blue;
+}
+
+h1, h2, h3, h3, h4, h5, h6 {color: blue}
+form {color: seagreen}
+table 
+{
+	order-color: blue;
+	margin: auto;
+}
+a:link {color:green}
+
+table.center{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#store .cart_title {
+font: 120% bold;
+}
+
+#store .item_price, #store .total_line {
+text-align: right;
+}
+
+#store .total_line .total_cell {
+font-weight: bold;
+border-top: 1px solid #595;
+}
